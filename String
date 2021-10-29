@@ -1,0 +1,20 @@
+package basicsofjava;
+
+public class StringExample {
+	public static void main(String[] args) {
+		
+		int a= 10;
+		int b= 30;
+		char ch ='c';
+		String ss= "21";
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(a+b);
+		System.out.println(a+b+ss);
+		System.out.println(ss);
+		System.out.println("ss");
+		System.out.println(ss+a+b);
+		System.out.println(ss+ch);
+	}
+
+}
