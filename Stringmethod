@@ -1,0 +1,48 @@
+package basicsofjava;
+
+public class StaticMethod {
+	
+	public static void printhello()
+	{
+		System.out.println("Hello");
+		System.out.println("Hello");
+		System.out.println("Hello");
+		System.out.println("Hello");
+		System.out.println("Hello");
+	}
+	public static void multiplication()
+	{
+		int a =58;
+		int b = 27;
+		int c= a*b;
+		System.out.println(c);
+	}
+	public static void main(String[] args) {
+	int a=10;
+	System.out.println("***********************************");
+	System.out.println(a);
+	System.out.println("***********************************");
+	printhello();
+	System.out.println("***********************************");
+	multiplication();
+	System.out.println("***********************************");
+	Staticmethod2.Divison();
+	System.out.println("***********************************");
+	
+	}
+}
+
+package basicsofjava;
+
+public class Staticmethod2 {
+	
+	public static void Divison()
+	{
+		int p =80;
+		int l =10;
+		int z =p/l;
+		System.out.println(z);
+		
+	}
+
+}
